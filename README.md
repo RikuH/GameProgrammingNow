@@ -3,35 +3,37 @@
 ## Requirements
 
 ### Added Features during Class
-Bad Batteries that Drain Power 
+Bad Batteries that Drain Power [x]
 
-Automatic Collection of Pickups
+Automatic Collection of Pickups [x]
 
 
 ### Start Menu with following buttons
-New Game
+New Game [x]
 
-Exit
+Exit [x]
 
 
-#### Settings Submenu with e.g. Resolution or Audio Options
-> Volume settings is in pause menu
+> Settings Submenu with e.g. Resolution or Audio Options
+Volume settings is in pause menu [x]
 
 ### Your Very Own Level with
-Varying Terrain
+Varying Terrain [x]
 
-Several Different Objects e.g. Trees, Rocks, ...
+Several Different Objects e.g. Trees, Rocks, ... [x]
 
-Start Point and End Point
+Start Point and End Point [x]
 
 
 ### Enemy Character
-Drains the Power (when close enough)
+Drains the Power (when close enough) [x]
 
-Follows the Character (use e.g. path finding)
+Follows the Character (use e.g. path finding) [x]
 
 
-### Your Own Super Cool Feature(s) (tm)
+### Your Own Super Cool Feature(s) (tm) [x]
 First levels space shuttle parts collecting
 
-Player and enemy characters are from Epic Store
+
+> Player and enemy characters are Paragon: Wraith from Epic Store
+> Second levels props are Modular Seaside Town from Epic Store
