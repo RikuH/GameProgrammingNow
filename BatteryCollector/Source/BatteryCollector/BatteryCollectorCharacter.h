@@ -56,6 +56,10 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void AllPartsCollected();
 
+	//Called when we press key to collect any pickups inside the collectionsphere
+	UFUNCTION(BlueprintCallable, Category = "Pickups")
+		void CollectPickups();
+
 protected:
 
 	/** Resets HMD orientation in VR. */
@@ -90,10 +94,6 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
-	//Called when we press key to collect any pickups inside the collectionsphere
-	UFUNCTION(BlueprintCallable, Category = "Pickups")
-	void CollectPickups();
-
 	//Starter power level of our character
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power", Meta = (BlueprintProtected = "true"))
 	float InitialPower;
@@ -109,10 +109,10 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent, Category = "Power")
 	void PowerChangeEffect();
 
-private:
 	//Current power level of our character
 	UPROPERTY(VisibleAnywhere, Category = "Power")
 	float CharacterPower;
+private:
 
 	bool bCollectionEnabled;
 
@@ -125,7 +125,7 @@ private:
 
 	/** called when something enters the sphere component **/
 	UFUNCTION()
-		void OnOverlapBegin(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 public:
 

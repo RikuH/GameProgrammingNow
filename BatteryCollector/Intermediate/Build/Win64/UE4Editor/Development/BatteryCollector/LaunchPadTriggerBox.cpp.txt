@@ -1,0 +1,8 @@
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Definitions.BatteryCollector.h
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Source\BatteryCollector\LaunchPadTriggerBox.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/TriggerBox.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/TriggerBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerBase.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TriggerBox.generated.h
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Inc\BatteryCollector\LaunchPadTriggerBox.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

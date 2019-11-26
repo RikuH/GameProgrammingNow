@@ -1,0 +1,3 @@
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Development\BatteryCollector\Definitions.BatteryCollector.h
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Source\BatteryCollector\Pickup.h
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Intermediate\Build\Win64\UE4Editor\Inc\BatteryCollector\Pickup.generated.h

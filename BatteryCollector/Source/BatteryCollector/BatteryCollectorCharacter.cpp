@@ -48,7 +48,7 @@ ABatteryCollectorCharacter::ABatteryCollectorCharacter()
 
 	//Create the collection sphere
 	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
-	//CollectionSphere->OnComponentBeginOverlap.AddDynamic(this, &ABatteryCollectorCharacter::OnOverlapBegin);
+	CollectionSphere->OnComponentBeginOverlap.AddDynamic(this, &ABatteryCollectorCharacter::OnOverlapBegin);
 	CollectionSphere->SetupAttachment(RootComponent);
 	CollectionSphere->SetSphereRadius(200.0f);
 
@@ -253,9 +253,9 @@ void ABatteryCollectorCharacter::AllPartsCollected() {
 
 	}
 }
-void ABatteryCollectorCharacter::OnOverlapBegin(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
+void ABatteryCollectorCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult) {
 	if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr)) {
-		UE_LOG(LogTemp, Warning, TEXT("Collision"));
 		
 	}
+		UE_LOG(LogTemp, Warning, TEXT("Collision"));
  }

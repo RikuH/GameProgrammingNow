@@ -1,0 +1,3 @@
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Source\BatteryCollector\BatteryCollector.Build.cs
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Source\BatteryCollector.Target.cs
+C:\Users\riku.heino\Desktop\GameProgrammingNow\GameProgrammingNow\BatteryCollector\Source\BatteryCollectorEditor.Target.cs
