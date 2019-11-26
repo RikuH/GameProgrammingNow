@@ -15,7 +15,7 @@ Exit
 
 ### Your Very Own Level with
 Varying Terrain
-Several Different Objects e.g. Trees, Rocks, ... 
+Several Different Objects e.g. Trees, Rocks, ...
 Start Point and End Point
 
 ### Enemy Character
