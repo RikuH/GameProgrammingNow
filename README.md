@@ -34,7 +34,10 @@
 ### Your Own Super Cool Feature(s) (tm) [x]
 - First levels space shuttle parts collecting
 
+- Space shuttle parts slow down the player when picked up
+
 - Player can shoot lightballs
+
 
 
 
