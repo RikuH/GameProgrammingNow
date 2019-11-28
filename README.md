@@ -34,6 +34,8 @@
 ### Your Own Super Cool Feature(s) (tm) [x]
 - First levels space shuttle parts collecting
 
+- Player can shoot lightballs
+
 
 
 > Player and enemy characters are Paragon: Wraith from Epic Store
